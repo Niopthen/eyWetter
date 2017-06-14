@@ -1,0 +1,117 @@
+/**
+ * Contao Open Source CMS
+ * Copyright (C) 2005-2011 Leo Feyer
+ *
+ * Formerly known as TYPOlight Open Source CMS.
+ *
+ * This program is free software: you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation, either
+ * version 3 of the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this program. If not, please visit the Free
+ * Software Foundation website at <http://www.gnu.org/licenses/>.
+ *
+ * PHP version 5
+ * @copyright  Leo Feyer 2005-2011
+ * @author     Leo Feyer <http://www.contao.org>
+ * @license    LGPL
+ * @version    1.1
+ */
+
+/* Reset margins */
+body,div,h1,h2,h3,h4,h5,h6,p,blockquote,figure,pre,code,ol,ul,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea {
+	margin:0;
+	padding:0;
+}
+
+/* Format basic elements */
+table {
+/*	border-collapse:collapse;*/
+	border-spacing:0;
+}
+caption,th,td {
+	text-align:left;
+	vertical-align:top;
+}
+abbr,acronym {
+	font-variant:normal;
+	border-bottom:1px dotted #666;
+	cursor:help;
+}
+blockquote,q {
+	quotes:none;
+}
+fieldset,img {
+	border:0;
+}
+li {
+	list-style-type:none;
+}
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+del {
+	text-decoration:line-through;
+}
+ins {
+	text-decoration:none;
+}
+a {
+	color:#00f;
+}
+:focus {
+	outline:0;
+}
+
+/* Font settings */
+body {
+	font-family:"Lucida Grande","Lucida Sans Unicode",Verdana,sans-serif;
+	font-size:12px;
+	color:#000;
+}
+input,button,textarea,select {
+	font-family:inherit;
+	font-size:99%;
+	font-weight:inherit;
+}
+pre,code {
+	font-family:"Lucida Console",Monaco,monospace;
+	font-size:12px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+h1 {
+	font-size:22px;
+}
+h2 {
+	font-size:20px;
+}
+h3 {
+	font-size:18px;
+}
+table {
+	font-size:inherit;
+}
+caption,th {
+	font-weight:bold;
+}
+
+/* Default margins */
+h1,h2,h3,h4,h5,h6 {
+	margin-top:1em;
+}
+h1,h2,h3,h4,h5,h6,p,pre,blockquote,table,ol,ul,form {
+	margin-bottom:12px; /* Should match the font size */
+}
